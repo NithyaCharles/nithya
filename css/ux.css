@@ -1,0 +1,147 @@
+/** ux page **/
+/**general**/
+html {
+  font-family: helvetica, sans-serif;
+
+}
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+  color: #282728;
+  font-size: 1rem;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-weight: lighter;
+  color: #282728;
+}
+
+/** navigation **/
+ul.navbar {
+  list-style-type: none;
+}
+ul.navbar li {
+  float: right;
+}
+ul a {
+  background: #6151F4;
+  text-decoration: none;
+  padding: 0.6rem;
+  margin-right: 0.6rem;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+ul a:hover {
+  background-color: #E770B8;
+}
+
+.nithya {
+  text-align: left;
+  margin-left: 1rem;
+}
+.nithya a {
+  color: black;
+  text-decoration: none;
+}
+
+.nithya a:hover {
+  background: -webkit-linear-gradient( #BDFF1D, #E770B8, #4942DB);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.uxcontainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas:
+    "vid layout text"
+    "bb idea text";
+  margin: 8rem;
+}
+
+#uxvideo {
+  grid-area: vid;
+  max-width: 100%;
+}
+
+#layout {
+  grid-area: layout;
+  margin-top: 3rem;
+}
+
+#textux {
+  grid-area: text;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+#bb {
+  grid-area: bb;
+}
+
+#bigidea {
+  grid-area: idea;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #6151F4;
+}
+.warholpagebutton {
+  background-color: #E770B8;
+  padding: 0.5rem;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.warholpagebutton:hover {
+  background-color: #6151F4;
+}
+
+@media screen and (max-width: 700px) {
+  .uxcontainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+      "vid"
+      "layout"
+      "bb"
+      "idea"
+      "text"
+      "text";
+    margin-right: : 8rem;
+  }
+  #uxvideo {
+    max-width: 200%;
+  }
+  #layout {
+    max-width: 200%;
+  }
+  #bb {
+    max-width: 200%;
+  }
+  #bigidea {
+    max-width: 200%
+  }
+  #textux {
+    margin-top: 1rem;
+  }
+
+}

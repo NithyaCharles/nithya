@@ -1,0 +1,441 @@
+/**css for portfilio**/
+/**general**/
+html {
+  font-family: helvetica, sans-serif;
+
+}
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+  color: #282728;
+  font-size: 1rem;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-weight: lighter;
+  color: #282728;
+}
+
+
+.subtitle {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #6151F4;
+}
+/** home page **/
+#backgroundVid {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#title {
+  margin-top: 25rem;
+}
+
+.begin {
+  text-align: center;
+}
+
+#startButton {
+  background-color: #E770B8;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 25px;
+  color: white;
+
+}
+ a {
+  text-decoration: none;
+  color: white;
+ }
+
+#startButton:hover {
+  background-color: #6151F4;
+}
+/** navigation **/
+ul.navbar {
+  list-style-type: none;
+}
+ul.navbar li {
+  float: right;
+}
+ul a {
+  background: #6151F4;
+  text-decoration: none;
+  padding: 0.6rem;
+  margin-right: 0.6rem;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+ul a:hover {
+  background-color: #E770B8;
+}
+
+.nithya {
+  text-align: left;
+  margin-left: 1rem;
+}
+.nithya a {
+  color: black;
+}
+
+.nithya a:hover {
+  background: -webkit-linear-gradient( #BDFF1D, #E770B8, #4942DB);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+/** work page**/
+#worktitle {
+  margin-top: 6rem;
+}
+
+#container {
+  margin-top: 6rem;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas:
+    " a b c d"
+    "e f g h";
+}
+
+
+.warhols {
+  z-index: 1;
+  opacity: 75%;
+  grid-area: b;
+  margin: 0;
+  padding: 0;
+}
+
+.warhols a:hover {
+  opacity: 50%;
+}
+
+.galaxy {
+  z-index: 1;
+  opacity: 75%;
+  grid-area: c;
+}
+
+.galaxy a:hover {
+  opacity: 50%;
+}
+
+.henna {
+  z-index: 1;
+  opacity: 75%;
+  grid-area: f;
+}
+
+.henna a:hover {
+  opacity: 50%;
+}
+
+.ux {
+  z-index: 1;
+  opacity: 75%;
+  grid-area: g;
+}
+
+.ux a:hover {
+  opacity: 50%;
+}
+
+#abouttitle {
+  text-align: left;
+}
+/**about page **/
+
+.aboutcontainer {
+  margin-top: 8rem;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas:
+    "i j k l";
+}
+
+#aboutme {
+  grid-area: j;
+}
+
+#mepic {
+  grid-area: k;
+}
+
+.aboutpagebutton {
+  background-color: #E770B8;
+  padding: 0.5rem;
+  border-radius: 25px;
+}
+
+.aboutpagebutton:hover {
+  background-color: #6151F4;
+}
+
+/**Contact Page**/
+#contactbackground {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.phoneinfo {
+  text-align: center;
+}
+.phoneinfo p {
+  font-size: 1.6rem;
+}
+.phoneinfo h2 {
+  font-size: 2rem;
+}
+.emailinfo {
+  text-align: center;
+}
+.emailinfo p {
+  font-size: 1.6rem;
+}
+.emailinfo h2 {
+  font-size: 2rem;
+}
+.socialinfo {
+  text-align: center;
+}
+.socialinfo p {
+  font-size: 1.6rem;
+}
+.socialinfo h2 {
+  font-size: 2rem;
+}
+/** warhol page**/
+
+.warholcontainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas:
+  "m n o"
+  "p q r";
+  margin: 8rem;
+  text-align: center;
+}
+
+
+#collage {
+  grid-area: n;
+}
+
+#canvideo {
+  grid-area: m;
+  max-width: 100%;
+}
+
+#bb1 {
+  grid-area: r;
+}
+
+#bb2 {
+  grid-area: p;
+}
+
+#bb3 {
+  grid-area: q;
+}
+
+#text {
+  grid-area: o;
+}
+
+
+.warholpagebutton {
+  background-color: #E770B8;
+  padding: 0.5rem;
+  border-radius: 25px;
+}
+
+.warholpagebutton:hover {
+  background-color: #6151F4;
+}
+
+/** galaxy page **/
+
+.galaxycontainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas:
+    "s t";
+  margin: 8rem;
+  margin-top: 12rem;
+}
+
+  #mapimage {
+    grid-area: s;
+  }
+
+  #textgal {
+    grid-area: t;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .galpagebutton {
+    background-color: #E770B8;
+    padding: 0.5rem;
+    border-radius: 25px;
+  }
+
+  .galpagebutton:hover {
+    background-color: #6151F4;
+  }
+
+  /** henna page **/
+
+.hennacontainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas:
+    "u v w";
+  margin: 8rem;
+  margin-bottom: 1rem;
+}
+
+#rae {
+  grid-area: u;
+}
+
+#stu {
+  grid-area: v;
+}
+
+#mom {
+  grid-area: w;
+}
+
+.words {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas:
+    "x y";
+  margin-left: 38rem;
+  padding-bottom: 8rem;
+  text-align: center;
+
+}
+
+#brief {
+  grid-area: x;
+}
+
+#brief p {
+  text-align: center;
+}
+
+#execution {
+  grid-area: y;
+}
+
+ /** responsive**/
+@media screen and (max-width: 700px) {
+/**work page responsive**/
+  #container {
+    margin-top: 6rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas:
+      "b"
+      "c"
+      "f"
+      "g";
+    margin-left: 1rem;
+  }
+  img {
+    max-width: 600%;
+  }
+  /** warhil page responsive**/
+  html {
+    margin: 0;
+  }
+  .warholcontainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas:
+    "m"
+    "n"
+    "o"
+    "p"
+    "q"
+    "r";
+    margin: 8rem;
+    text-align: center;
+  }
+  #canvideo {
+    max-width: 0%;
+  }
+  /** galaxy metro responsive **/
+  .galaxycontainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+      "s s s"
+      "t t t";
+    margin-bottom: 1rem;
+  }
+  #mapimage {
+    max-width: 100%;
+  }
+  /** henna page responsive**/
+  .hennacontainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas:
+      "u"
+      "v"
+      "w";
+  }
+/** about page responsive **/
+.aboutcontainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas:
+    "paragraph paragraph"
+    "me me";
+  }
+  #aboutme {
+    grid-area: paragraph;
+  }
+
+  #mepic {
+    grid-area: me;
+    max-width: 100%;
+  }
+  /** contact page responsive*/
+  .contactpage p {
+    text-align: center;
+  }
+}
