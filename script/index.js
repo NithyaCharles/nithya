@@ -3,5 +3,5 @@ const animation = lottie.loadAnimation {(
   renderder: 'svg',
   loop: true,
   autoplay: true,
-  path: 'data.json'
+  path: 'script/data.json'
 )}
