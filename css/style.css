@@ -220,7 +220,7 @@ ul a:hover {
 .socialinfo {
   text-align: center;
 }
-.socialinfo p {
+.socialinfo a {
   font-size: 1.6rem;
 }
 .socialinfo h2 {
