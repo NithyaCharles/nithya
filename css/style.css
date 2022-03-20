@@ -226,6 +226,14 @@ ul a:hover {
 .socialinfo h2 {
   font-size: 2rem;
 }
+.socialbutton {
+  text-align: center;
+}
+#ig {
+  text-align: center;
+}
+#in {
+  text-align: center;
 /** warhol page**/
 
 .warholcontainer {
