@@ -1,4 +1,4 @@
-const animation = lottie.loadAnimation {(
+const animation = bodymovin.loadAnimation {(
   container: document.getElementsById('backgroundVid'),
   renderder: 'svg',
   loop: true,
